@@ -26,19 +26,19 @@ return (
     
 <div className="pro-selected">
 
-{filteredProduct.map((phone)=>{
-    return(
-        <div className='pro-input'>
-            <label >
-                <input type="checkbox" 
-                checked = {selectedProduct.includes(phone.company)}
-                onChange={()=>companyHandler(phone.company)}
-                />
-                {phone.company}
-            </label>
-        </div>
-    )
-})}
+    {filteredProduct.map((phone)=>{
+        return(
+            <div className='pro-input'>
+                <label >
+                    <input type="checkbox" 
+                     checked = {selectedProduct.includes(phone.company)}
+                     onChange={()=>companyHandler(phone.company)}
+                     />
+                     {phone.company}
+                </label>
+            </div>
+         )
+    })}
 
 </div>
 

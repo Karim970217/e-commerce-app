@@ -450,7 +450,7 @@ ul li {
     cursor: pointer;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 800px){
     body {
         margin: 0;
         padding: 0;
@@ -468,9 +468,17 @@ ul li {
     .pageImg img {
         padding-left: 30px;
     }
+    .ind-image{
+        width: 100%;
+        height: 100%;
+    }
+    .ind-details{
+        padding: 10px;
+        font-size: 16px;
+    }
     .user .cart {
         display: block;
-        color: white;
+        color: black;
     }
     .fullpage {
         width: 100%;

@@ -64,6 +64,7 @@ const Navbar = () => {
           <Link to="/fridge" className="custom-link">
             <li>Fridge</li>
           </Link>
+          
           <Link to="/ac" className="custom-link">
             <li>AC</li>
           </Link>
